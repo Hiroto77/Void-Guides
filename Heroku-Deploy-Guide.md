@@ -1,5 +1,5 @@
 # Heroku Deploy Guide
-##  WhatsApp Botto: VOID 🖤️<br>
+##  WhatsApp Botto: KAOI 🖤️<br>
 ### Pre-requisite
  - 🌐️ Internet 🌐️️
 - 🧠️ Brain 🧠️
@@ -13,6 +13,7 @@
     | --- | ----------- |
     | BOTNAME | Void |
     | CRON | 'null' |
+    | GOOGLE_API_KEY | '-' |
     | PREFIX | ! |
     | SESSION | Any text you want but make sure to remember and don't share it |
     | MODS |  |
@@ -20,6 +21,7 @@
  
 `NAME` The name of the Bot <br>
 `CRON` Cron schedule for clearing all chats (Default: `"0 */6 * * *"`. Every 6 Hours). change this field to `null` if you don't want to schedule. [Learn More](https://www.npmjs.com/package/node-cron) <br>
+`GOOGLE_API_KEY` 
 `PREFIX` The Prefix of the Bot <br>
 `SESSION` A string to keep track of your session. <br>
 `MODS` The phone numbers of users who you want to be the bot's Admins separated by a comma and must the numbers must be in the following format: `[cc][number]`. eg: `919744******`<br>
